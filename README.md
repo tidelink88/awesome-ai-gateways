@@ -50,6 +50,19 @@ Unified API gateways that route requests across multiple LLM providers.
 - [LLMProxy](https://github.com/aiyuekuang/LLMProxy#readme) - High-performance reverse proxy for LLM inference with SSE streaming.
 - [Zuul](https://github.com/Netflix/zuul#readme) - Netflix edge gateway.
 - [RouteLLM](https://github.com/lm-sys/RouteLLM#readme) - Open-source framework from LMSYS for training and deploying lightweight LLM routers that balance cost and quality.
+- [Manifest](https://github.com/mfst/manifest#readme) - TypeScript gateway connecting agents with any provider, with cost optimization and BYOK support.
+- [ClawRouter](https://github.com/BlockRunAI/ClawRouter#readme) - Agent-native LLM router with 41+ models, sub-millisecond routing, and USDC payments.
+- [NadirClaw](https://github.com/NadirRouter/NadirClaw#readme) - Self-hosted LLM router that routes simple prompts to cheap models and complex to premium, saving 40-70% on costs.
+- [Olla](https://github.com/thushan/olla#readme) - High-performance lightweight Go proxy and load balancer for LLM infrastructure with intelligent routing.
+- [BitRouter](https://github.com/bitrouter/bitrouter#readme) - Rust-based agentic LLM gateway and router for cost-optimizing agentic workflows.
+- [Nyro](https://github.com/nyroway/nyro#readme) - Self-hosted Rust AI gateway with protocol translation for Claude Code, Codex, and Gemini CLI.
+- [1Flowbase](https://github.com/taichuy/1flowbase#readme) - Rust AI gateway for fusion-style multi-model workflows published as OpenAI-compatible virtual models.
+- [SmarterRouter](https://github.com/peva3/SmarterRouter#readme) - VRAM-aware router for Ollama and llama.cpp with semantic caching, model profiling, and automatic failover.
+- [Llamactl](https://github.com/lordmathis/llamactl#readme) - Unified management and routing for llama.cpp, MLX, and vLLM models with web dashboard.
+- [Nexus Gateway](https://github.com/AlphaBitCore/nexus-gateway#readme) - Enterprise AI traffic gateway with compliance, routing across 20+ providers, semantic cache, quotas, and audit.
+- [AI Firewall](https://github.com/vcal-project/ai-firewall#readme) - Rust OpenAI-compatible gateway using Redis exact cache and Qdrant semantic cache.
+- [Hecate](https://github.com/hecatehq/hecate#readme) - Local AI operations console for supervised agent work with MCP and OpenTelemetry.
+- [Alvus](https://github.com/filariasistrichoglossusmoluccanus49/Alvus#readme) - Lightweight Go proxy for handling AI API rate limits.
 
 ### Managed Services
 • [OCI AI Services API Gateway](https://docs.oracle.com/en-us/iaas/Content/AI/Services/Concepts/aioverview.htm) - Oracle Cloud Infrastructure AI services exposed via API Gateway.
@@ -92,6 +105,11 @@ Reduce costs 60-80% by caching semantically similar responses.
 - [Chroma](https://github.com/chroma-core/chroma#readme) - Vector database for AI apps.
 - [pgvector](https://github.com/pgvector/pgvector#readme) - Vector similarity in PostgreSQL.
 - [FAISS](https://github.com/facebookresearch/faiss#readme) - Facebook vector search library.
+- [ModelCache](https://github.com/codefuse-ai/ModelCache#readme) - LLM semantic caching system for reducing response time via cached query-result pairs.
+- [Mimir](https://github.com/aqstack/mimir#readme) - Go drop-in proxy that caches LLM API responses using semantic similarity.
+- [Semcache](https://github.com/sensoris/semcache#readme) - Rust semantic caching layer for LLM applications.
+- [OmniCache](https://github.com/ashishpatel26/omnicache-ai#readme) - Unified multi-layer caching library for AI and agent pipelines.
+- [Graft](https://github.com/AEndrix03/Graft#readme) - Local-first semantic cache for AI agents with cross-session memory via MCP.
 
 ## Cost Tracking and Analytics
 • [Kubecost](https://kubecost.com/) - Cost monitoring for Kubernetes workloads, adaptable for LLM costs.
@@ -118,6 +136,18 @@ Monitor, attribute, and optimize LLM spend.
 - [PostHog](https://posthog.com/#readme) - Product analytics with LLM event tracking.
 - [Confident AI](https://www.confident-ai.com/#readme) - Evaluation-first observability platform.
 - [Maxim AI](https://www.getmaxim.ai/#readme) - End-to-end platform for simulation, evaluation, and monitoring.
+- [Coze Loop](https://github.com/coze-dev/coze-loop#readme) - Next-gen AI agent optimization platform with full-lifecycle management.
+- [Pydantic Logfire](https://github.com/pydantic/logfire#readme) - AI observability platform for production LLM and agent systems.
+- [Agenta](https://github.com/Agenta-AI/agenta#readme) - Open-source LLMOps platform with prompt playground, management, evaluation, and observability.
+- [Latitude](https://github.com/latitude-dev/latitude-llm#readme) - Open-source AI monitoring platform.
+- [Acontext](https://github.com/memodb-io/Acontext#readme) - Agent skills as a memory layer for context engineering.
+- [Laminar](https://github.com/lmnr-ai/lmnr#readme) - Open-source observability platform purpose-built for AI agents.
+- [Judgeval](https://github.com/JudgmentLabs/judgeval#readme) - Continuous-improvement stack for agents with environment data and evals.
+- [TraceRoot](https://github.com/traceroot-ai/traceroot#readme) - Open-source observability and self-healing layer for AI agents.
+- [Agent Prism](https://github.com/evilmartians/agent-prism#readme) - React components for visualizing traces from AI agents.
+- [Aegis](https://github.com/Justin0504/Aegis#readme) - Runtime policy enforcement for AI agents with cryptographic audit trail and kill switch.
+- [AgentWatch](https://github.com/cyberark/agentwatch#readme) - AI observability framework for comprehensive agent interaction insights.
+- [VoltAgent](https://github.com/VoltAgent/voltagent#readme) - AI Agent Engineering Platform built on open-source TypeScript framework.
 
 ## Load Balancing and Routing
 • [F5 NGINX Plus AI Security](https://www.f5.com/products/nginx-plus/ai-security) - AI-powered web application and API protection.
@@ -136,6 +166,14 @@ Distribute traffic, implement failovers, and optimize costs.
 - [Routerly Policies](https://www.routerly.ai/#readme) - 9 configurable policies including LLM-native routing.
 - [Lovable: 1.8B tokens per minute load balancing](https://www.adwaitx.com/llm-provider-load-balancing-agent-workflows/#readme) - PID-controlled dynamic load balancing.
 - [RouteLLM](https://github.com/lm-sys/RouteLLM#readme) - Cost-quality routing with trainable lightweight routers.
+- [vLLM Semantic Router](https://github.com/vllm-project/semantic-router#readme) - System-level intelligent router for Mixture-of-Models at cloud, data center, and edge.
+- [NVIDIA LLM Router](https://github.com/NVIDIA-AI-Blueprints/llm-router#readme) - Route LLM requests to the best model for the task at hand.
+- [Dario](https://github.com/askalf/dario#readme) - Claude Pro/Max subscription proxy for any tool at subscription pricing.
+- [RouterArena](https://github.com/RouteWorks/RouterArena#readme) - Open framework for evaluating LLM routers with standardized datasets, metrics, and live leaderboard.
+- [Infermux](https://github.com/greynewell/infermux#readme) - Go-based inference routing across providers with load balancing and cost tracking.
+- [FreeRouter](https://github.com/openfreerouter/freerouter#readme) - Self-hosted AI model router with 14-dimension classifier. OpenRouter alternative using your own API keys.
+- [Claude Model Router Hook](https://github.com/tzachbon/claude-model-router-hook#readme) - Claude Code hooks that auto-switch model tier based on task complexity.
+- [a3m Router](https://github.com/Das-rebel/a3m-router#readme) - Top-ranked router on RouterArena with 96.77% accuracy at $0.0768/1K tokens.
 
 ## API Management and Rate Limiting
 • [MuleSoft AI Governance](https://www.mulesoft.com/lp/ai/anypoint-platform-for-ai) - AI-powered API governance and security.
@@ -231,6 +269,17 @@ Content filtering, PII redaction, and prompt injection protection.
 - [AWS AI Services](https://aws.amazon.com/machine-learning/ai-services/#readme) - Amazon content moderation.
 - [DeepEval](https://github.com/confident-ai/deepeval#readme) - Open-source testing framework for LLM outputs.
 - [OpenZiti Security](https://github.com/openziti/llm-gateway#readme) - Zero-trust access with E2E encryption.
+- [Agentic Security](https://github.com/msoedov/agentic_security#readme) - Agentic LLM vulnerability scanner and AI red teaming kit.
+- [DeepTeam](https://github.com/confident-ai/deepteam#readme) - Framework to red team LLMs and AI agents.
+- [Fast LLM Security Guardrails](https://github.com/ZenGuard-AI/fast-llm-security-guardrails#readme) - The fastest trust layer for AI agents.
+- [Last Layer](https://github.com/arekusandr/last_layer#readme) - Ultra-fast, low latency LLM prompt injection and jailbreak detection.
+- [Open Bias](https://github.com/open-bias/open-bias#readme) - Open-source reliability harness for enforcing, tracing, and improving agent rule compliance.
+- [Trylon Gateway](https://github.com/trylonai/gateway#readme) - Self-hosted firewall for LLMs with powerful guardrails.
+- [PROMPTPurify](https://github.com/securelayer7/PROMPTPurify#readme) - Prompt-injection guardrail using compact model that outperforms larger open-source guards.
+- [Control Layer](https://github.com/Emmimal/control-layer#readme) - Production-grade control layer with input validation, schema enforcement, and circuit breaking.
+- [HAI Guardrails](https://github.com/presidio-oss/hai-guardrails#readme) - TypeScript library providing guards for LLM applications.
+- [VeilArmor](https://github.com/0x-Professor/VeilArmor#readme) - Enterprise-grade security framework for LLMs with multi-layered protection.
+- [Agent Guardrails](https://github.com/logi-cmd/agent-guardrails#readme) - Merge gates and safety checks for AI coding agents via MCP.
 
 ## Tutorials and Case Studies
 • [Microsoft Azure AI Gateway Documentation](https://learn.microsoft.com/en-us/azure/architecture/example-scenario/ai/ai-gateway) - Guide to building AI gateways on Azure.
@@ -253,6 +302,9 @@ Content filtering, PII redaction, and prompt injection protection.
 - [Cortex](https://arxiv.org/html/2509.17360v2#readme) - Semantic-aware knowledge caching for LLM agents.
 - [Ferro Labs Getting Started](https://github.com/ferro-labs/ai-gateway#readme) - Go-native gateway setup.
 - [Routerly Documentation](https://www.routerly.ai/#readme) - Intelligent routing guide.
+- [OSS LLMOps Stack](https://github.com/langfuse/oss-llmops-stack#readme) - Modular open-source LLMOps stack combining LiteLLM and Langfuse.
+- [awesome-mllm-guardrails](https://github.com/ant-research/awesome-mllm-guardrails#readme) - Curated list of LLM guardrails, safety benchmarks, guard models, and jailbreak attacks.
+- [awesome-free-llm-apis](https://github.com/mfst/awesome-free-llm-apis#readme) - List of permanent free LLM API keys.
 
 ## Communities
 • [MLOps World Community](https://mldotworld.com/community/) - Community for MLOps practitioners and enthusiasts.
