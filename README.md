@@ -39,6 +39,7 @@ Unified API gateways that route requests across multiple LLM providers.
 - [OpenZiti LLM Gateway](https://github.com/openziti/llm-gateway#readme) - Zero-trust LLM gateway with semantic routing and E2E encryption.
 - [Kong](https://github.com/Kong/kong#readme) - Enterprise API gateway with LLM routing plugin.
 - [LocalAI](https://github.com/mudler/LocalAI#readme) - Self-hosted, drop-in replacement for OpenAI API.
+- [LocalGateway](https://github.com/Correctover/local-gateway#readme) - Desktop LLM gateway with zero-dependency multi-provider failover and automatic model name mapping. Works with Cursor, Claude Desktop, Windsurf.
 - [lm-proxy](https://github.com/Nayjest/lm-proxy#readme) - Lightweight OpenAI-compatible proxy for multi-provider inference.
 - [LLM API Proxy](https://github.com/rxliuli/llm-api-proxy#readme) - Edge runtime proxy supporting OpenAI, Anthropic, Gemini, and more.
 - [LLMProxy](https://github.com/aiyuekuang/LLMProxy#readme) - High-performance reverse proxy for LLM inference with SSE streaming.
@@ -195,7 +196,10 @@ Multi-provider abstractions and LLM client libraries.
 - [OpenAI Python SDK](https://github.com/openai/openai-python#readme) - Official OpenAI client.
 - [Anthropic Python SDK](https://github.com/anthropics/anthropic-sdk-python#readme) - Official Claude client.
 - [Vercel AI SDK](https://github.com/vercel/ai#readme) - AI SDK for Next.js and Svelte.
-- [LiteLLM Python SDK](https://docs.litellm.ai/docs/#readme) - Unified interface for 100+ providers.
+- [LiteLLM Python SDK](https://docs.litellm.ai/docs/python-sdk#readme) - Unified interface for 100+ providers.
+- [Correctover SDK](https://github.com/Correctover/Correctover-#readme) - Enterprise AI reliability SDK with self-healing rules engine and 6-dimension contract validation.
+- [Portkey Python SDK](https://docs.portkey.ai/docs/get-started/python-sdk#readme) - Multi-provider with tracing.
+- [NeuralBridge](https://github.com/Correctover/neuralbridge-sdk#readme) - Self-healing engine for LLM APIs with 87 fault-recovery rules and MAPE-K decision loop.
 - [LangChain](https://github.com/langchain-ai/langchain#readme) - LLM orchestration framework.
 - [LlamaIndex](https://github.com/run-llama/llama_index#readme) - RAG framework with gateway integrations.
 - [tiktoken](https://github.com/openai/tiktoken#readme) - Fast tokenization by OpenAI.
