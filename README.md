@@ -26,6 +26,7 @@ Unified API gateways that route requests across multiple LLM providers.
 • [APISIX AI Plugin](https://apisix.apache.org/docs/apisix/plugins/ai-proxy/) - Apache APISIX plugin for LLM provider integration with load balancing and observability.
 • [Ambassador AI Gateway](https://www.getambassador.io/docs/edge-stack/latest/topics/using/ai/) - Kubernetes-native AI gateway built on Envoy with rate limiting and fallback.
 
+- [TideLink](https://tidelink.xyz) - OpenAI-compatible gateway unifying GLM/Qwen/DeepSeek/Hunyuan/Doubao with automatic failover and BYOK; permanent free tier, no card required.
 - [LiteLLM](https://github.com/BerriAI/litellm#readme) - Python SDK and proxy server calling 100+ LLMs in OpenAI format.
 - [Portkey Gateway](https://github.com/Portkey-AI/gateway#readme) - Blazing fast AI gateway with 250+ LLMs, 50+ guardrails.
 - [Bifrost](https://github.com/maximhq/bifrost#readme) - High-performance AI gateway in Go with adaptive load balancing.
