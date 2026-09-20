@@ -26,7 +26,6 @@ Unified API gateways that route requests across multiple LLM providers.
 • [APISIX AI Plugin](https://apisix.apache.org/docs/apisix/plugins/ai-proxy/) - Apache APISIX plugin for LLM provider integration with load balancing and observability.
 • [Ambassador AI Gateway](https://www.getambassador.io/docs/edge-stack/latest/topics/using/ai/) - Kubernetes-native AI gateway built on Envoy with rate limiting and fallback.
 
-- [TideLink](https://tidelink.xyz?cid=gh) - OpenAI-compatible gateway unifying GLM/Qwen/DeepSeek/Hunyuan/Doubao with automatic failover and BYOK; permanent free tier, no card required.
 - [LiteLLM](https://github.com/BerriAI/litellm#readme) - Python SDK and proxy server calling 100+ LLMs in OpenAI format.
 - [Portkey Gateway](https://github.com/Portkey-AI/gateway#readme) - Blazing fast AI gateway with 250+ LLMs, 50+ guardrails.
 - [Bifrost](https://github.com/maximhq/bifrost#readme) - High-performance AI gateway in Go with adaptive load balancing.
@@ -65,6 +64,7 @@ Unified API gateways that route requests across multiple LLM providers.
 
 - [Cloudflare AI Gateway](https://developers.cloudflare.com/ai-gateway/#readme) - Unified interface for AI providers at the edge.
 - [OpenRouter](https://openrouter.ai/#readme) - Unified API for 500+ models from 60+ providers.
+- [TideLink](https://tidelink.xyz) - OpenAI-compatible managed LLM gateway: one endpoint for GLM/Qwen/DeepSeek/Hunyuan/Doubao with automatic failover, BYOK, and a permanent free tier (no card).
 - [Portkey Hosted](https://portkey.ai/#readme) - Managed AI gateway with 1600+ LLMs and enterprise features.
 - [Braintrust](https://www.braintrust.dev/#readme) - Unified API with encrypted caching and integrated evaluation.
 - [Maxim AI](https://www.getmaxim.ai/#readme) - End-to-end platform for simulation, evaluation, and monitoring.
